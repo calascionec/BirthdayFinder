@@ -1,13 +1,67 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+:root {
+    --spacing: 30px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+        'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+        sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.app {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: var(--spacing);
+}
+
+.app__header {
+    margin-bottom: var(--spacing);
+}
+
+.form {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: var(--spacing);
+}
+
+.label {
+    display: block;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.textarea {
+    display: block;
+    width: 100%;
+}
+
+.action-group {
+    margin-bottom: var(--spacing);
+}
+
+.errors {
+    color: tomato;
+    font-weight: 700;
+    margin-bottom: var(--spacing);
+}
+
+@media (min-width: 1024px) {
+    .form {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .form__user-input {
+        grid-column: 1;
+    }
+
+    .form_actions {
+        grid-column: 2;
+    }
+
+    .form__results {
+        grid-column: 1 / 3;
+    }
 }
