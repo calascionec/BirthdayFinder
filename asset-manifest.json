@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/BirthdayFinder/static/css/main.c73c36b7.css",
+    "main.js": "/BirthdayFinder/static/js/main.04d8581b.js",
+    "static/js/787.3ec2b4bc.chunk.js": "/BirthdayFinder/static/js/787.3ec2b4bc.chunk.js",
+    "index.html": "/BirthdayFinder/index.html",
+    "main.c73c36b7.css.map": "/BirthdayFinder/static/css/main.c73c36b7.css.map",
+    "main.04d8581b.js.map": "/BirthdayFinder/static/js/main.04d8581b.js.map",
+    "787.3ec2b4bc.chunk.js.map": "/BirthdayFinder/static/js/787.3ec2b4bc.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c73c36b7.css",
+    "static/js/main.04d8581b.js"
+  ]
+}
