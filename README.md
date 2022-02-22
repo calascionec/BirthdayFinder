@@ -1,3 +1,20 @@
+# Birthday Finder App
+
+## App Requirements
+
+1. Given I have an array of employee records that include their birthday
+2. When I execute this script/program with the array of employees
+3. Then I am returned an array of employees who's birthday is in the current month
+
+## App Instructions
+
+1. Add an Array of records to the User Input field. The array can be typed directly into the field, uploaded from a JSON file, or fake data can be used by clicking the Create Fake Data Button.
+
+2. By default, the current month is selected to filter by. You may use the "Month to filter by" select to change the month.
+
+3. Click the "Filter Data" button to return the filtered list of records.
+
+-------------------------------------
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
